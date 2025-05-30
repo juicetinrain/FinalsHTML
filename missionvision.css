@@ -1,0 +1,166 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header Styles */
+.NavContainer {
+  padding: 0 5px;
+  background: linear-gradient(khaki, #fff);
+}
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+#logo {
+  height: 65px;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+#brand_name {
+  font-size: 55px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a:hover {
+  color: gray;
+}
+
+/* mission and vision layout */
+.mission-vision-section {
+  background-color: #f3f4f6;
+  padding: 60px 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mv-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mv-container h2 {
+  font-size: 40px;
+  color: #2c3e50;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.mv-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.mv-box h3 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.mv-box p {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.mv-image {
+  width: 90%;
+  max-height: 230px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.section-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.social-link-list a {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-link-list a:hover {
+  color: #f39c12;
+}
+
+.policy-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.policy-text a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.policy-text a:hover {
+  color: #fff;
+}
+
+.separator {
+  color: #555;
+}
